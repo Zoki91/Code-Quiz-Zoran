@@ -10,9 +10,9 @@ To help myself become familiar with these tests and give me a chance to apply th
 ## Screenshots
 Screenshots below
 
-![App Screenshot](https://i.ibb.co/fYvhs3r/Screenshot-1.png)
+![App Screenshot]()
 
-![App Screenshot](https://i.ibb.co/QmDyrnD/Screenshot-2.png)
+![App Screenshot]()
 
 
 ## Deployment
