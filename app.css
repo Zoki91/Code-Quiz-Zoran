@@ -1,0 +1,136 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+#quiz-high-scores,
+input[type='button'] {
+  appearance: none;
+  background-color: #5c148c;
+  border-radius: 0.5rem;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+#quiz-high-scores:hover,
+input[type='button']:hover {
+  background-color: #8c1480;
+}
+
+.container {
+  width: 100%;
+}
+
+.quiz {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 3rem;
+}
+
+.quiz-stats {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.quiz-items {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  list-style-type: none;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  padding-inline-start: 0;
+}
+
+.quiz-items > .quiz-item {
+  margin-bottom: 1rem;
+}
+
+.quiz-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-item input[type='button'] {
+  width: 100%;
+}
+
+#quiz-timer:before {
+  content: 'Timer: ';
+}
+
+#high-scores.show {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#high-scores {
+  display: none;
+}
+
+#quiz-feedback {
+  color: #777;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.quiz-content form {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.quiz-content form > p {
+  font-weight: bold;
+}
+
+.quiz-content form > label {
+  margin-bottom: 1rem;
+}
+
+.quiz-content form > input {
+  margin-bottom: 1rem;
+}
+
+.quiz-content form > input[type='text'] {
+  padding: 0.5rem 1rem;
+  outline: 0;
+  border: 0.15rem solid #aaa;
+  border-radius: 0.5rem;
+}
+
+.quiz-content > .quiz-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
